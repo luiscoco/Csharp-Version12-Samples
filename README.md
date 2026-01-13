@@ -1,12 +1,12 @@
-# C# 12 Features – Sample Projects
+# C# 12 Features - Sample Projects
 
 This repository contains examples of the new features introduced in **C# version 12** (shipped with .NET 8). Each project demonstrates a specific feature, with code you can build and run.
 
 ---
 
-## 🚀 New Features in C# 12 (as illustrated in this repo)
+## New Features in C# 12 (as illustrated in this repo)
 
-### 1. Primary Constructors (`P183_PrimaryConstructors`)
+### P187_PrimaryConstructors
 - **What’s new**: You can now declare constructor parameters directly in class or struct definitions (not just records).  
 - **Example**:
   ```csharp
@@ -19,7 +19,7 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-### 2. Collection Expressions with Spread (`P184_CollectionExpressions`)
+### P188_CollectionExpressions
 - **What’s new**: Use `[...]` to create arrays or collections, with `..` to spread existing collections inside.  
 - **Example**:
   ```csharp
@@ -29,7 +29,7 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-### 3. Default Lambda Parameters (`P185_DefaultLambdaParameters`)
+### P189_DefaultLambdaParameters
 - **What’s new**: Lambda expressions can define parameters with default values.  
 - **Example**:
   ```csharp
@@ -40,7 +40,7 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-### 4. Using Alias for Any Type (`P186_UsingAliasAnyType`)
+### P190_UsingAliasAnyType
 - **What’s new**: `using` alias directives can now alias any type, including tuples, arrays, and pointers.  
 - **Example**:
   ```csharp
@@ -50,7 +50,7 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-### 5. Inline Arrays (`P187_InlineArrays`)
+### P191_InlineArrays
 - **What’s new**: Fixed‑size buffers via `[System.Runtime.CompilerServices.InlineArray(N)]`.  
 - **Example**:
   ```csharp
@@ -63,7 +63,7 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-### 6. Params with Collections (`P188_ParamsAndCollections`)
+### P192_ParamsAndCollections
 - **What’s new**: You can mix `params` with collection expressions for more concise APIs.  
 - **Example**:
   ```csharp
@@ -77,12 +77,12 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-### 7. Primary Constructor with Init Usage (`P189_PrimaryCtorInitUsage`)
+### P193_PrimaryCtorInitUsage
 - **What’s new**: Combine primary constructors with `init` properties and base calls.  
 
 ---
 
-### 8. Lambda Improvements (`P190_LambdaImprovements`)
+### P194_LambdaImprovements
 - **What’s new**: Lambdas can now explicitly specify return types, and support more parameter features.  
 - **Example**:
   ```csharp
@@ -91,7 +91,7 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-### 9. ExperimentalAttribute (`P191_ExperimentalAttribute`)
+### P195_ExperimentalAttribute
 - **What’s new**: APIs can be marked experimental with `[Experimental("id")]`, warning callers.  
 - **Example**:
   ```csharp
@@ -101,12 +101,12 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-### 10. Interceptors (Preview) (`P192_Interceptors_Preview`)
+### P196_Interceptors_Preview
 - **What’s new**: A preview feature that allows method interception (experimental).  
 
 ---
 
-### 11. Ref Readonly Parameters (`P193_RefReadonlyParameters`)
+### P197_RefReadonlyParameters
 - **What’s new**: Methods can take parameters as `ref readonly`, passed by reference but not modifiable.  
 - **Example**:
   ```csharp
@@ -118,25 +118,25 @@ This repository contains examples of the new features introduced in **C# version
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 - **Solution**: `CSharpV120_Features_FULL.sln`  
 - **Projects**:
-  - P183_PrimaryConstructors  
-  - P184_CollectionExpressions  
-  - P185_DefaultLambdaParameters  
-  - P186_UsingAliasAnyType  
-  - P187_InlineArrays  
-  - P188_ParamsAndCollections  
-  - P189_PrimaryCtorInitUsage  
-  - P190_LambdaImprovements  
-  - P191_ExperimentalAttribute  
-  - P192_Interceptors_Preview  
-  - P193_RefReadonlyParameters  
+  - P187_PrimaryConstructors  
+  - P188_CollectionExpressions  
+  - P189_DefaultLambdaParameters  
+  - P190_UsingAliasAnyType  
+  - P191_InlineArrays  
+  - P192_ParamsAndCollections  
+  - P193_PrimaryCtorInitUsage  
+  - P194_LambdaImprovements  
+  - P195_ExperimentalAttribute  
+  - P196_Interceptors_Preview  
+  - P197_RefReadonlyParameters  
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - .NET 8 SDK  
 - C# 12 language version enabled  
@@ -149,7 +149,7 @@ dotnet run
 
 ---
 
-## 📖 References
+## References
 
 - [What’s new in C# 12 – Microsoft Docs](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12)  
 - [Announcing C# 12 – .NET Blog](https://devblogs.microsoft.com/dotnet/announcing-csharp-12/)  
